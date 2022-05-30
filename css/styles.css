@@ -1,0 +1,196 @@
+
+.nav-bar-logo{
+width: 200px;
+
+
+}
+
+
+/* carousel */
+carousel slide{
+    height:300px;
+}
+
+
+.carousel-photo{
+    height:40rem;
+
+}
+
+@media (max-width: 600px)
+{
+  .carousel-photo
+   {
+    height: 25rem;
+   }
+}
+
+
+/* Features Section */
+
+.features {
+    position: relative;
+    margin:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .feature-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+    text-align: center;
+    
+  }
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    width: 5rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+  .feature-img{
+      width:200px;
+      height:200px;
+      border-radius: 8px;
+  }
+
+p{
+    font-family: 'Mukta', sans-serif;
+    font-size:1rem;
+    color:#73777B
+}
+
+
+
+.social-icon{
+    color:gray;
+    padding: 30px;
+}
+
+#footer{
+    text-align:center;
+}
+
+.ensaio-photo{
+    width: 107%;
+    height:300px;
+    border-radius:12px;
+    margin:10px 0px;
+    padding: 3px;
+    border-style:groove
+}
+
+@media (max-width: 980px){
+    .ensaio-photo{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 1400px){
+    .carousel-photo{
+        width: auto;
+        height: 1400px;
+    }
+    
+}
+
+.row{
+    padding: 0px;
+    margin: 0;
+}
+
+#ensaios{
+    margin: 0;
+}
+
+
+h1{
+    font-family: 'Mukta', sans-serif;
+    weight: 700px;
+    font-size: 3rem;
+    color: #f0f049b9;
+    border-color: rgb(174, 194, 63);
+    border-style:double;
+}
+
+@media (max-width: 980px){
+h1{
+    font-size: 1.5rem;
+}
+}
+
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#7a7b73;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    
+}
+
+.perfil-img{
+width: 100%;
+height:auto;
+display: block;
+padding: 0;
+border-radius:8px;
+}
+
+.midias-contato{
+    text-align: center;
+
+}
+
+.form{
+    text-align: center;
+    margin:50px 90px 90px 90px
+}   
+
+.whatsapp-icon{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom: 40px;
+    right:40px;
+    background-color: #25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center  ;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp{
+    margin-top:16px;
+}
+
+.card{
+    margin:20px 20px;
+}
+.card-img-top{
+    padding:10px;
+    border-radius: 10px;
+}
+.contatos-description{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8rem;
+}
+
+.card-text{
+
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+}
